@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./_colors.scss";
+
+@font-face {
+    font-family: 'SFProTextBold';
+    src: url('../fonts/SFProText-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProTextSemiBold';
+    src: url('../fonts/SFProText-Semibold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProTextMedium';
+    src: url('../fonts/SFProText-Medium.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('../fonts/SFProText-Regular.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*,
+pre {
+    line-height: 150%;
+    font-family: 'SFProText';
+}
+
+html, body {
+    overflow: hidden;
+}
+
+.font-medium {
+    font-family: 'SFProTextMedium';
+}
+
+.font-semibold {
+    font-family: 'SFProTextSemiBold';
+}
+
+.font-bold {
+    font-family: 'SFProTextBold';
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    border-left: 1px solid $black_24;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $orange;
+    border-radius: 10px;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
